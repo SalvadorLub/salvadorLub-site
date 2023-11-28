@@ -1,0 +1,114 @@
+body {
+    background-color: #f5f5f5!important;
+    font-family: 'Montserrat', sans-serif!important;
+    color: #4b4b4b!important;
+    /* Não alterar */
+    font-size: 1.1rem!important;
+    line-height: 1.5rem!important;
+    text-align: center!important;
+} 
+
+.container-fluid {
+    max-width: 540px;
+}
+
+
+/* PHOTO */
+
+.photo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.photo img {
+    border-radius: 50%;
+    max-width: 250px;
+}
+
+
+/* TITLE */
+
+.title h1 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    ;
+}
+
+.title h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    ;
+}
+
+
+/* LINKS*/
+
+.links {
+    margin-bottom: 40px;
+}
+
+
+/* BOTÃO */
+
+.botao {
+    color: #020202;
+    background-color: #0fb746;
+    /* Não alterar */
+    max-width: 100%;
+    min-height: 2.2rem;
+    vertical-align: middle;
+    margin-top: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    border-radius: 50px;
+    padding-top: 0.3rem;
+}
+
+.botao:hover {
+    color: #f7f5eb;
+    background-color: #087831;
+}
+
+
+/* SOCIAL */
+
+.social {
+    margin-bottom: 40px;
+}
+
+.social a {
+    text-decoration: none;
+    color: #0fb746;
+}
+
+.social a:hover {
+    text-decoration: none;
+    color: #087831;
+}
+
+.social ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+}
+
+
+/* FOOTER */
+
+footer {
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #4b4b4b;
+}
+
+footer a:hover {
+    color: #0fb746;
+}
