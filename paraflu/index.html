@@ -42,18 +42,18 @@
                 <div class="banner">
                     <img src="../img/LOGOSALVADORLUB_Header.png" alt="Imagem de fundo">
                     <p>Filtros e Lubrificantes LTDA</p>
-                    <button onclick="history.back()">Página inicial</button>
+                    <button onclick="window.location.href='../index.html'">Página inicial</button>
                 </div>
             </header>
 
             <aside class="sidebar">
                 <nav>
                     <ul class="menu">
-                        <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
-                        <li class="menu-item"><a href="#quemSomos" class="menu-link">Sobre Nós</a></li>
-                        <li class="menu-item"><a href="#seguimentos" class="menu-link">Seguimentos</a></li>
-                        <li class="menu-item"><a href="#sessao-parceiros" class="menu-link">Parceiros</a></li>
-                        <li class="menu-item"><a href="#enderecos" class="menu-link">Enderecos</a></li>
+                        <li class="menu-item"><a href="../index.html" class="menu-link">Home</a></li>
+                        <li class="menu-item"><a href="../index.html#quemSomos" class="menu-link">Sobre Nós</a></li>
+                        <li class="menu-item"><a href="../index.html#seguimentos" class="menu-link">Seguimentos</a></li>
+                        <li class="menu-item"><a href="../index.html#sessao-parceiros" class="menu-link">Parceiros</a></li>
+                        <li class="menu-item"><a href="../index.html#enderecos" class="menu-link">Enderecos</a></li>
                     </ul>
                 </nav>
                 <div class="social-media">
@@ -66,7 +66,8 @@
             <section class="sessao-produtos" id="sessao-produtos">
                 <div class="lista-produtos" id="produtos">
                     <div class="sessao-header">
-                        <h1>PARAFLU</h1>
+                        <!--<h1>PARAFLU</h1>-->
+                        <img src="img/logo-paraflu.png" alt="Logo Paraflu" />
                     </div>
                     <div class="resumoMarca">
                         <p>Confira abaixo nossa linha de produtos PARAFLU.</p>
@@ -79,7 +80,7 @@
                             <div class="card-info">
                                 <h2>PARAFLU DOT 3</h2>
                                 <h3>Fluído de freio</h3>
-                                <p>10-7300 / 10-7301 - PARAFLU FLUIDO DE FREIOS DOT 3</p>
+                                <p>PARAFLU DOT 3 é destinado para uso em todos os sistemas hidráulicos de freio e embreagem que recomendam o uso de um produto que atenda à especificação DOT 3.</p>
                             </div>
                         </div>
                         <div class="card">
@@ -89,7 +90,7 @@
                             <div class="card-info">
                                 <h2>PARAFLU DOT 4</h2>
                                 <h3>Fluído de freio</h3>
-                                <p>10-7400 / 10-7401 - PARAFLU FLUIDO DE FREIOS DOT 4</p>
+                                <p>PARAFLU DOT 4 é destinado para uso em todos os sistemas hidráulicos de freio e embreagem que recomendam o uso de um produto que atenda à especificação DOT 4.</p>
                             </div>
                         </div>
                         <div class="card">
@@ -105,7 +106,7 @@
                     </div>
         
                     <div class="produto-button">
-                        <button onclick="window.open('https://api.whatsapp.com/send?phone=557133294040&amp', '_blank')"><i class="fa-brands fa-whatsapp"></i></a></li> Consulte-nos</button>
+                        <button id="btn-wpp" onclick="window.open('https://api.whatsapp.com/send?phone=557133294040&amp', '_blank')"><i class="fa-brands fa-whatsapp"></i></a></li> Consulte-nos</button>
                     </div>
             </section>
 
